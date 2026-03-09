@@ -18,7 +18,7 @@ int main() {
 // Verificaciones
 if (v<0 && T<=Tmin) //por si ambas, velocidad y temperatura son negativas
 {
-cout << "Error: la velocidad no puede ser negativa." << '\n';
+cout << "Error: la velocidad no puede ser negativa." << "\n";
 cout << "Error: la temperatura no puede ser menor o igual al cero absoluto (-273.15 C).";
 return 0; // cierra el programa
 }
@@ -58,8 +58,8 @@ else
 }
 
 
-cout << "vs = "<< Vs << " m/s" << '\n';
-cout << "M = " << M << '\n';
+cout << "vs = "<< Vs << " m/s" << "\n";
+cout << "M = " << M << "\n";
 cout << "Regimen: " << regimen ;
 return 0;
 }
